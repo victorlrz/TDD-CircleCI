@@ -10,6 +10,7 @@ jobs:
       - checkout
       - python/load-cache
       - python/install-deps
+      - python/save-cache
       - run:
           command: ./manage.py test
           name: Test
