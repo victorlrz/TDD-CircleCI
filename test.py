@@ -22,7 +22,7 @@ class TestAddMethods(unittest.TestCase):
 
     def test_two_numbers_with_multiple_digits(self):
         actual = Add('1,12,345')
-        self.assertEqual(actual, 358)
+        self.assertEqual(actual, 35)
 
     def test_handling_new_lines_between_numbers_if_comma(self):
         actual = Add('1,\n')
